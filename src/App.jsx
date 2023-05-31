@@ -2,6 +2,7 @@ import Analytics from "./components/Analytics";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Analytics />
       <Newsletter />
+      <Pricing />
     </>
   );
 }
